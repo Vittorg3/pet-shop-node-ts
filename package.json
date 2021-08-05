@@ -1,0 +1,30 @@
+{
+  "name": "pet-shop-node-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon -e ts,json,mustache src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vittorg3/pet-shop-node-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vittorg3/pet-shop-node-ts/issues"
+  },
+  "homepage": "https://github.com/Vittorg3/pet-shop-node-ts#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mustache-express": "^1.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/mustache-express": "^1.2.1",
+    "@types/node": "^16.4.12"
+  }
+}
